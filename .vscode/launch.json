@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open starter-page.html in Edge",
+            "file": "C:\\Users\\User\\Desktop\\B2B3.0\\public_html\\index.html",
+            "runtimeExecutable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+        }
+    ]
+}
