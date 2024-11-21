@@ -11786,7 +11786,42 @@ pre .code {
   min-height: 600px;
   background: url(https://ik.imagekit.io/sh09gdtxr/header.png) no-repeat center center fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    min-height: 400px; /* Adjust the height for smaller screens */
+    background-position: center center; /* Ensure image is centered on small screens */
+  }
+
+  .header h1 {
+    font-size: 24px; /* Adjust font size for headings on small screens */
+    margin: 0 10px; /* Adjust margins for smaller screens */
+  }
+
+  .header .container {
+    padding: 10px; /* Add padding to ensure content isn't too close to edges */
+  }
+}
+
+/* Additional responsiveness for very small screens */
+@media (max-width: 480px) {
+  .header {
+    min-height: 300px; /* Even smaller height for very small screens */
+  }
+
+  .header h1 {
+    font-size: 20px; /* Further adjust font size */
+    margin: 0 5px; /* Reduced margin */
+  }
+}
+
+
 
 .header .overlay {
   position: absolute;
