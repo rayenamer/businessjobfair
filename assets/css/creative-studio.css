@@ -11784,7 +11784,7 @@ pre .code {
 .header {
   height: 100%;
   min-height: 600px;
-  background: url(https://ik.imagekit.io/sh09gdtxr/2074eeeb-ea70-4169-9fbf-45796c3d95d4.jfif) no-repeat center center fixed;
+  background: url(https://ik.imagekit.io/sh09gdtxr/2074eeeb-ea70-4169-9fbf-45796c3d95d4.jfif) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -11796,28 +11796,35 @@ pre .code {
 @media (max-width: 768px) {
   .header {
     min-height: 400px; /* Adjust the height for smaller screens */
-    background-position: center center; /* Ensure image is centered on small screens */
+    background-attachment: scroll; /* Prevent issues with fixed background */
+    background-size: cover; /* Maintain cropped look */
+    background-position: center center;
   }
 
   .header h1 {
     font-size: 24px; /* Adjust font size for headings on small screens */
-    margin: 0 10px; /* Adjust margins for smaller screens */
+    margin: 0 10px;
   }
 
   .header .container {
-    padding: 10px; /* Add padding to ensure content isn't too close to edges */
+    padding: 10px;
   }
 }
 
 /* Additional responsiveness for very small screens */
 @media (max-width: 480px) {
   .header {
-    min-height: 300px; /* Even smaller height for very small screens */
+    min-height: 300px; /* Reduced height for smaller phones */
+    background-size: contain; /* Ensure entire image fits on very small screens */
   }
 
   .header h1 {
-    font-size: 20px; /* Further adjust font size */
-    margin: 0 5px; /* Reduced margin */
+    font-size: 20px;
+    margin: 0 5px;
+  }
+
+  .header .container {
+    padding: 5px;
   }
 }
 
