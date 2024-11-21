@@ -11924,6 +11924,7 @@ section.has-bg-img {
   color: #fff;
 }
 
+/* General section styles */
 section.has-bg-img:after {
   content: '';
   position: absolute;
@@ -11933,19 +11934,19 @@ section.has-bg-img:after {
   bottom: 0;
   background-image: url(https://ik.imagekit.io/sh09gdtxr/2074eeeb-ea70-4169-9fbf-45796c3d95d4.jfif);
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+  background-attachment: fixed; /* Default for desktop */
 }
 
-section.has-bg-img.bg-img-1:after {
-  background-image: url(https://ik.imagekit.io/sh09gdtxr/2074eeeb-ea70-4169-9fbf-45796c3d95d4.jfif);
+/* Media query to disable fixed background on mobile */
+@media (max-width: 768px) {
+  section.has-bg-img:after {
+    background-attachment: scroll; /* Disable fixed attachment on mobile */
+  }
 }
 
-section.has-bg-img.bg-img-2:after {
-  background-image: url(https://ik.imagekit.io/sh09gdtxr/2074eeeb-ea70-4169-9fbf-45796c3d95d4.jfif);
-}
 
 section .section-subtitle {
   font-size: calc(17px + (23 - 17) * ((100vw - 320px) / (1200 - 320)));

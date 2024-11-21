@@ -383,6 +383,16 @@
 
 <!-- End of Team Sectoin -->
   <!-- Video Section -->
+  <script>
+    // JavaScript to apply a parallax effect (move background on scroll)
+    window.addEventListener('scroll', function() {
+      let scrollPosition = window.scrollY;
+      let background = document.querySelector('.has-bg-img');
+
+      // Apply parallax effect
+      background.style.backgroundPosition = 'center ' + (scrollPosition * 0.5) + 'px';
+    });
+  </script>
   <section class="has-bg-img py-lg" id="joinus">
     <div class="container text-center">
         <h6 class="section-title mt-4">Hustle with us</h6>
