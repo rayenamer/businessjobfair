@@ -11792,41 +11792,44 @@ pre .code {
   text-align: center;
 }
 
-/* Media query for smaller screens */
+/* Media query for medium-sized screens (tablets, etc.) */
 @media (max-width: 768px) {
   .header {
     min-height: 400px; /* Adjust the height for smaller screens */
     background-attachment: scroll; /* Prevent issues with fixed background */
     background-size: cover; /* Maintain cropped look */
-    background-position: center center;
+    background-position: center center; /* Ensure image is centered */
   }
 
   .header h1 {
     font-size: 24px; /* Adjust font size for headings on small screens */
-    margin: 0 10px;
+    margin: 0 15px; /* Add some margin to prevent text from touching edges */
   }
 
   .header .container {
-    padding: 10px;
+    padding: 10px; /* Ensure content is not too close to the edges */
   }
 }
 
-/* Additional responsiveness for very small screens */
+/* Media query for very small screens (phones) */
 @media (max-width: 480px) {
   .header {
-    min-height: 300px; /* Reduced height for smaller phones */
-    background-size: contain; /* Ensure entire image fits on very small screens */
+    min-height: 250px; /* Reduced height for smaller phones */
+    background-size: contain; /* Make sure the entire image fits within the screen */
+    background-position: center center; /* Keep image centered */
   }
 
   .header h1 {
-    font-size: 20px;
-    margin: 0 5px;
+    font-size: 18px; /* Adjust the font size for very small screens */
+    margin: 0 10px; /* Add some margin to prevent text from touching edges */
   }
 
   .header .container {
-    padding: 5px;
+    padding: 5px; /* Reduce padding for small screens */
   }
 }
+
+
 
 
 
