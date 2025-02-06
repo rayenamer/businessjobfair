@@ -1,10 +1,6 @@
-It looks like the formatting didn't render correctly in your README file. This is likely because GitHub's Markdown renderer doesn't support certain emojis or symbols directly. Let me help you clean it up and ensure it displays properly on GitHub while maintaining a visually appealing look.
 
-Here’s the revised version with GitHub-friendly Markdown:
 
----
-
-# Job Fair Website ✨
+## Job Fair Website 
 
 Welcome to the **Job Fair Website** project! This platform was developed during my time with AIESEC to bridge the gap between job seekers and employers. It provides essential information about the event, participating companies, and opportunities for networking. Let’s dive in! 🚀
 
