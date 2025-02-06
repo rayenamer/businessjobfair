@@ -1,12 +1,16 @@
+Got it! Let’s simplify the formatting and ensure it’s fully compatible with GitHub’s Markdown renderer. I’ll remove any unsupported emojis or symbols and stick to basic Markdown syntax while keeping it visually clean and professional.
 
-
-## Job Fair Website 
-
-Welcome to the **Job Fair Website** project! This platform was developed during my time with AIESEC to bridge the gap between job seekers and employers. It provides essential information about the event, participating companies, and opportunities for networking. Let’s dive in! 🚀
+Here’s the updated version:
 
 ---
 
-## 🛠️ Technologies Used
+# Job Fair Website
+
+Welcome to the **Job Fair Website** project! This platform was developed during my time with AIESEC to bridge the gap between job seekers and employers. It provides essential information about the event, participating companies, and opportunities for networking.
+
+---
+
+## Technologies Used
 
 - **HTML**  
 - **CSS**  
@@ -16,9 +20,9 @@ Welcome to the **Job Fair Website** project! This platform was developed during 
 
 ---
 
-## 🚀 Installation Instructions
+## Installation Instructions
 
-To get this project up and running on your local machine, follow these simple steps:
+To get this project up and running on your local machine, follow these steps:
 
 1. **Clone the repository**:
    ```bash
@@ -40,7 +44,7 @@ To get this project up and running on your local machine, follow these simple st
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! If you'd like to contribute to this project, here's how you can do it:
 
@@ -61,20 +65,21 @@ We welcome contributions! If you'd like to contribute to this project, here's ho
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-👤 **Rayen Ameur**  
+**Rayen Ameur**  
 - GitHub: [@yourusername](https://github.com/yourusername)  
 - LinkedIn: [Rayen Ameur](https://www.linkedin.com/in/rayen-ameur)  
 
 ---
 
-Feel free to explore, contribute, and make this project even better! 🌈  
-Let’s connect job seekers with their dream opportunities! 💼✨
+Feel free to explore, contribute, and make this project even better! Let’s connect job seekers with their dream opportunities!
 
 ---
 
-### Notes:
-- Replace `yourusername` with your actual GitHub username.
-- Ensure all emojis and symbols are supported by GitHub's Markdown renderer. If any emojis don’t display correctly, you can replace them with simpler symbols or remove them.
-- Use consistent spacing and formatting to ensure readability.
+### Key Changes:
+1. Removed emojis and symbols that might not render correctly on GitHub.
+2. Simplified the formatting to ensure compatibility with GitHub’s Markdown renderer.
+3. Kept the structure clean and professional while maintaining readability.
+
+This version should now display correctly on GitHub. Let me know if you need further adjustments! 😊
